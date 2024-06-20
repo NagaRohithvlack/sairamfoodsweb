@@ -14,7 +14,7 @@ function CarouselD () {
                     <img src={CarouselData[3].imgs[0].img} alt="img1" className="absolute left-0 right-0 md:right-0 md:left-0 w-4/6 md:w-[556px] bottom-0 z-10" />
                     </div>
                 </div> */}
-                <div className="imgs md:w-3/6 h-[270px] md:h-full flex relative order-first md:order-last md:order-last ">
+                <div className="imgs md:w-3/6 h-[270px] md:h-full flex relative order-first md:order-last  ">
     <div className="relative w-full flex justify-center">
         <img src={CarouselData[3].imgs[0].img} alt="img1" className="absolute left-1/2 transform -translate-x-1/2 md:-translate-x-1/4 w-4/6 md:w-[556px] bottom-0 z-10" />
     </div>
