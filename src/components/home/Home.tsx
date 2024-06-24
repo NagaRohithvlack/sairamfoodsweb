@@ -10,7 +10,7 @@ import CarouselSlick from "./carousel/carouselcomps/CarouselSlick.tsx";
 
 export default function Home() {
   return (
-    <div className="main_head">
+    <div className="main_head max-w-screen">
       <CarouselSlick />
       <ExperienceSairam />
       <div className={`p-5`}> 

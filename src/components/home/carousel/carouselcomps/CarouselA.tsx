@@ -4,7 +4,7 @@ import lines1 from "../../../../assets/images/lines1.png";
 
 function CarouselA() {
   return (
-    <div className="mt-[70px] md:mt-0 overflow-hidden md:h-screen " style={{ backgroundImage: `url(${bgimg})` }}>
+    <div className="mt-[70px] md:mt-0 overflow-hidden md:h-screen max-w-screen" style={{ backgroundImage: `url(${bgimg})` }}>
       <div className="flex flex-col h-full md:flex md:flex-row md:justify-between">
 
         <div className="imgs md:w-3/6 h-[270px] md:h-full flex relative order-first md:order-last">

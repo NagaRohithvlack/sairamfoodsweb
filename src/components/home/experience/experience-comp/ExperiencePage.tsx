@@ -5,7 +5,7 @@ import { MovingDotsRightComp } from "./SingleDot";
 import curleyDesign from "../../../../assets/images/curely-design.png";
 export default function ExperienceSairam() {
   return (
-    <div className="flex flex-col gap-8 md:gap-0 md:h-screen justify-center items-center relative p-8 md:p-0 sm:flex-row">
+    <div className="flex flex-col gap-8 md:gap-0 md:h-4/6 justify-center items-center relative p-8 md:p-24 sm:flex-row">
       <div className="sm:w-2/6 flex justify-center items-center ">
         <div className="absolute -left-20 md:left-14 top-4 md:top-14 ">
           <MovingDotsRightComp />     

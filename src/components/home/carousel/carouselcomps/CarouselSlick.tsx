@@ -43,18 +43,16 @@ const CarouselSlick = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 900,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
-    nextArrow: <LeftdoubleButton />,
-    prevArrow: <RightdoubleButton />,
     customPaging: (i) => <CustomDot index={i} active={i === 0} />,
   };
 
   return (
-    <div className='relative' onMouseEnter={() => sliderRef.current.slickPause()} onMouseLeave={() => sliderRef.current.slickPlay()}>
+    <div className='relative max-w-screen overflow-hidden' onMouseEnter={() => sliderRef.current.slickPause()} onMouseLeave={() => sliderRef.current.slickPlay()}>
       
       <Slider {...settings} ref={sliderRef} className='h-full'>
         <div>
@@ -63,14 +61,11 @@ const CarouselSlick = () => {
         <div>
           <CarouselB />
         </div>
-        {/* <div className='hidden md:flex'>
-          <CarouselC />
-        </div> */}
         <div>
           <CarouselD />
         </div>
       </Slider>
-      <RightdoubleButton />
+      {/* <RightdoubleButton /> */}
       
     </div>
   );
