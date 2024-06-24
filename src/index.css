@@ -6,6 +6,10 @@
   .main_head {
     @apply sm:mt-[70px] md:mt-[120px];
   }
+  .max-width {
+    max-width: 100vw;
+  }
+
 }
 
 

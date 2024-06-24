@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function LegacyPage () {
     return (
-        <div className="flex flex-col justify-center items-center md:gap-12  lg:h-screen lg:w-screen md:flex md:flex-row bg-[#FFF6F1]">
+        <div className="flex flex-col justify-center items-center md:gap-12  lg:h-screen lg:max-w-screen md:flex md:flex-row bg-[#FFF6F1] ">
             
             <div className="md:w-3/6 px-20 pt-20 md:p-16 md:px-0 md:pt-0  md: lg:p-0 flex md:flex-row relative lg:h-5/6 ">
                 <div className="md:w-full md:p-12 lg:p-0 flex justify-center">

@@ -19,6 +19,8 @@ import OrderConfirmPage from "./components/Payments/paymentsmode/OrderConfirmpag
 
 function App() {
   return (
+    <div className="max-w-screen">
+
     <BrowserRouter>
       <Provider store={store}>
         <Header />
@@ -40,6 +42,7 @@ function App() {
         <Footer />
       </Provider>
     </BrowserRouter>
+    </div>
   );
 }
 
